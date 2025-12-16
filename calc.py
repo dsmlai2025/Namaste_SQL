@@ -9,3 +9,9 @@ def multiply(a, b):
         return 0
     else:
         return a*b
+
+def divide(a, b):
+    if b == 0:
+        return "Division by zero not possible"
+    else:
+        return a/b
