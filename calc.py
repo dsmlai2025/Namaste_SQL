@@ -12,6 +12,6 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        return "Division by zero not possible"
+        return "Division by 0 not possible"
     else:
         return a/b
